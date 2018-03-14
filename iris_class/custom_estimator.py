@@ -86,7 +86,7 @@ def main(argv):
         params={
             'feature_columns': my_feature_columns,
             # Two hidden layers of 10 nodes each.
-            'hidden_units': [10, 10],
+            'hidden_units': [10, 10, 10],
             # The model must choose between 3 classes.
             'n_classes': 3,
         })
